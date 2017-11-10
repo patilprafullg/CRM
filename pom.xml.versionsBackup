@@ -3,7 +3,7 @@
 	
 	<groupId>org.tektutor</groupId>
 	<artifactId>crm</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<distributionManagement>
@@ -60,13 +60,6 @@
                                                                 <id>default-compile</id>
                                                                 <phase>none</phase>
                                                         </execution>
-						</executions>
-					 </plugin>
-					<plugin>
-                                                <groupId>org.apache.maven.plugins</groupId>
-                                                <artifactId>maven-compliler-plugin</artifactId>
-                                                <version>3.1</version>
-                                                <executions>
 							<execution>
 								<id>default-testCompile</id>
 								<phase>none</phase>
@@ -100,13 +93,6 @@
                                                                 <id>default-compile</id>
                                                                 <phase>none</phase>
                                                         </execution>
-						</executions>
-					 </plugin>
-					 <plugin>
-                                                <groupId>org.apache.maven.plugins</groupId>
-                                                <artifactId>maven-compliler-plugin</artifactId>
-                                                <version>3.1</version>
-                                                <executions>
 							<execution>
                                                                 <id>default-testCompile</id>
                                                                 <phase>none</phase>
@@ -127,7 +113,7 @@
 					 <plugin>
                                                 <groupId>org.apache.maven.plugins</groupId>
                                                 <artifactId>maven-jar-plugin</artifactId>
-                                                <version>2.4</version>
+                                                <version>2.12.4</version>
                                                 <executions>
                                                         <execution>
                                                                 <id>default-package</id>
