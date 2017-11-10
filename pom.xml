@@ -60,13 +60,6 @@
                                                                 <id>default-compile</id>
                                                                 <phase>none</phase>
                                                         </execution>
-						</executions>
-					 </plugin>
-					<plugin>
-                                                <groupId>org.apache.maven.plugins</groupId>
-                                                <artifactId>maven-compliler-plugin</artifactId>
-                                                <version>3.1</version>
-                                                <executions>
 							<execution>
 								<id>default-testCompile</id>
 								<phase>none</phase>
@@ -100,13 +93,6 @@
                                                                 <id>default-compile</id>
                                                                 <phase>none</phase>
                                                         </execution>
-						</executions>
-					 </plugin>
-					 <plugin>
-                                                <groupId>org.apache.maven.plugins</groupId>
-                                                <artifactId>maven-compliler-plugin</artifactId>
-                                                <version>3.1</version>
-                                                <executions>
 							<execution>
                                                                 <id>default-testCompile</id>
                                                                 <phase>none</phase>
